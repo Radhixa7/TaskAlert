@@ -1,6 +1,6 @@
 # 📝 Task Alert
 
-Aplikasi manajemen tugas pintar berbasis Android + Backend Ktor, dengan dukungan AI, notifikasi, dan penyimpanan database MongoDB.
+Aplikasi manajemen tugas pintar berbasis Android + Backend Ktor, dengan dukungan AI, notifikasi, dan penyimpanan database FireBase.
 
 ---
 
@@ -15,10 +15,10 @@ Aplikasi manajemen tugas pintar berbasis Android + Backend Ktor, dengan dukungan
 
 ---
 
-## 🌐 Backend (Ktor + MongoDB)
+## 🌐 Backend (Ktor + FireBase)
 
 - RESTful API menggunakan [Ktor](https://ktor.io/)
-- Database NoSQL menggunakan [MongoDB](https://www.mongodb.com/)
+- Database NoSQL menggunakan [FireBase](https://firebase.google.com/?hl=id)
 - Endpoint JSON (GET, POST, PUT, DELETE)
 - Siap deploy ke VPS / Railway / Render
 
@@ -29,8 +29,8 @@ Aplikasi manajemen tugas pintar berbasis Android + Backend Ktor, dengan dukungan
 | Bagian      | Teknologi                |
 |-------------|--------------------------|
 | Frontend    | Android (Kotlin), Jetpack Compose, Room |
-| Backend     | Kotlin Ktor, Koin, MongoDB, Exposed/MongoDriver |
-| Database    | MongoDB (Atlas/Local)    |
+| Backend     | Kotlin Ktor, Koin, FireBase, Exposed/MongoDriver |
+| Database    | FireBase (Atlas/Local)    |
 | Tools       | Gradle, Git, Postman     |
 
 ---
